@@ -7,4 +7,33 @@ This repository provides an optimal solution for the Kobon Triangle Problem when
 * [Raw Lines (TXT-file)](./n21_lines.txt)
 * [HTML Preview](./n21_prev.html)
 
+
+## How It Was Constructed
+
+By enclosing all the intersection points inside a large circle and numbering all `n` lines clockwise, each arrangement can be represented by a corresponding table:
+
+![n5-example](imgs/scheme.png)
+
+Studying the properties of these tables enabled the creation of an algorithm to find optimal tables for arrangements that match the upper-bound approximations for various `n`, including `n=21`. 
+After identifying the optimal table, the final arrangement was manually constructed using a specially-made editor.
+
+Here is how the editor looks for `n=9`:
+
+![n9-editor](imgs/tool.png)
+
+And here it is for `n=21`:
+
+![n9-editor](imgs/tool_2.png)
+
+
+## Other Important Results
+
+The algorithm couldn't find any arrangement for `n=11` with `33` triangles. 
+Therefore, we can claim that the current best-known solution with `32` triangles is optimal, although this result has not been independently verified.
+
+## References
+
+* [Kobon triangle problem (Wikipedia)](https://en.wikipedia.org/wiki/Kobon_triangle_problem)
+* [G. Clément and J. Bader. Tighter Upper Bound for the Number of Kobon Triangles. Draft Version, 2007](https://web.archive.org/web/20171111045109/http://www.tik.ee.ethz.ch/sop/publicationListFiles/cb2007a.pdf)
+
 *Pavlo Savchuk 2024*
