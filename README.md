@@ -28,7 +28,7 @@ And here it is for `n=21`:
 
 ## Other Important Results
 
-The algorithm couldn't find any arrangement for `n=11` with `33` triangles. 
+The algorithm couldn't find any table for `n=11` with `33` triangles. 
 Therefore, we can claim that the current best-known solution with `32` triangles is optimal, although this result has not been independently verified.
 
 ## References
