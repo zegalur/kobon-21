@@ -16,6 +16,8 @@
     path { fill: #00000055; }
 </style>
 
+<rect width="100%" height="100%" fill="white"/>
+   
 <text x='20' y='30'>Kobon Triangles (21 lines, 133 triangles)</text>
 <text x='20' y='45'>Pavlo Savchuk 2024</text>
 
